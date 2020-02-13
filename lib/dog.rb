@@ -2,7 +2,7 @@ class Dog
 
   @@all = []
 
-  attr_accessor :name, :clear_all
+  attr_accessor :name
 
   def initialize(name)
     @name = name
@@ -17,8 +17,8 @@ class Dog
     @@all
   end
 
-  def self.clear
-    @@all
+  def self
+    @@all.clear_all 
   end
 
   # def self.print_all
