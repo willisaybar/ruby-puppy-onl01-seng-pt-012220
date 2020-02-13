@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    @@all = @name 
+    @@all[0]
   end
 
   def self.clear_all
