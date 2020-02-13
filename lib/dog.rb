@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.each_char { |chr|  }
+    @@all.collect 
   end
 
   def self.clear_all
