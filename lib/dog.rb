@@ -17,13 +17,14 @@ class Dog
     @@all
   end
 
+  def self.print_all
+    each.do @@all = []
+  end
+
   def self.clear_all
     @@all =[]
   end
 
-  def self.print_all
-    @@all = []
-  end
 
 #You will need to write a class method, .print_all, that iterates over
 #all of the individual dogs stored in the @@all array and puts out their name to the terminal.
