@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    each do @@all
+    do @@all
       puts @@all.split
     end
   end
